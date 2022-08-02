@@ -1,24 +1,23 @@
 /* styles for Kobe X Bron */
-
-.profile {
-  width: 150px;
-  display: inline-block;
-  margin-left: 5px;
-  margin-right: 5px;
-  border: none;
-  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.5);
+#grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  column-gap: 20px;
+  row-gap: 50px;
+  align-items: center;
 }
 
-/*  added to make multiple rows */
-.first-row, .second-row, .third-row {
-  margin-bottom: 10px;
+.profile {
+  width: 100%;
+  border: none;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.5);
 }
 
 .kobexbron {
   width: 100%;
   height: 170px;
   object-fit: cover;
-  object-position: center;
+  object-position: 50% 8%;
   margin-bottom: 7px;
 }
 
@@ -26,7 +25,7 @@
   width: 100%;
   height: 170px;
   object-fit: cover;
-  object-position: right;
+  object-position: 0% 5%;
   margin-bottom: 7px;
 }
 
@@ -34,7 +33,7 @@
   width: 100%;
   height: 170px;
   object-fit: cover;
-  object-position: 45%;
+  object-position: 50% 40%;
   margin-bottom: 7px;
 }
 
@@ -42,7 +41,7 @@
   width: 100%;
   height: 170px;
   object-fit: cover;
-  object-position: 45%;
+  object-position: 50% 20%;
   margin-bottom: 7px;
 }
 
@@ -50,7 +49,7 @@
   width: 100%;
   height: 170px;
   object-fit: cover;
-  object-position: 65%;
+  object-position: 50% 0%;
   margin-bottom: 7px;
 }
 
@@ -58,7 +57,7 @@
   width: 100%;
   height: 170px;
   object-fit: cover;
-  object-position: 45%;
+  object-position: 50% 8%;
   margin-bottom: 7px;
 }
 
@@ -66,7 +65,7 @@
   width: 100%;
   height: 170px;
   object-fit: cover;
-  object-position: 75%;
+  object-position: 50% 5%;
   margin-bottom: 7px;
 }
 
@@ -74,7 +73,7 @@
   width: 100%;
   height: 170px;
   object-fit: cover;
-  object-position: middle;
+  object-position: 50% 30%;
   margin-bottom: 7px;
 }
 
@@ -82,7 +81,7 @@
   width: 100%;
   height: 170px;
   object-fit: cover;
-  object-position: middle;
+  object-position: 50% 25%;
   margin-bottom: 7px;
 }
 
